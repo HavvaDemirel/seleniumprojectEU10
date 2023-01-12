@@ -23,7 +23,6 @@ public class T1_CydeoVerification {
          }
          String expectedTitle = "practice";
          String actualTitle = driver.getTitle();
-
          if (actualTitle.equalsIgnoreCase(expectedTitle)){
              System.out.println("title verification passed");
          }else {

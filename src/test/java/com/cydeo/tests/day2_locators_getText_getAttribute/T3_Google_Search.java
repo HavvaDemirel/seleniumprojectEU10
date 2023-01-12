@@ -21,6 +21,7 @@ public class T3_Google_Search {
         WebElement googleSearchBox = driver.findElement(By.name("q"));
         googleSearchBox.sendKeys("apple"+ Keys.ENTER);
 
+
         //5 - verify title
         String expectedInTitle = "apple";
         String actualTitle = driver.getTitle();
