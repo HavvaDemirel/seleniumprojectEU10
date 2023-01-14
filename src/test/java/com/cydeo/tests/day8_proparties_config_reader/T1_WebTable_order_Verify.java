@@ -1,7 +1,7 @@
 package com.cydeo.tests.day8_proparties_config_reader;
 
 import com.cydeo.Utilities.WebTableUtils;
-import com.cydeo.base.TestBase;
+import com.cydeo.tests.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

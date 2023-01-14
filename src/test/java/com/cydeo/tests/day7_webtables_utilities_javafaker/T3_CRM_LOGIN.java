@@ -2,7 +2,7 @@ package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
 import com.cydeo.Utilities.BrowserUtils;
 import com.cydeo.Utilities.CRM_utilities;
-import com.cydeo.base.TestBase;
+import com.cydeo.tests.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;

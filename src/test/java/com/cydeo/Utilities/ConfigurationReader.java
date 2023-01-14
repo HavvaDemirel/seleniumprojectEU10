@@ -12,12 +12,16 @@ public class ConfigurationReader {
 
             FileInputStream file = new FileInputStream("configuration.properties");
             properties.load(file);
-          //  file.close();
+            //  file.close();
         } catch (IOException e) {
             System.out.println("file not  found in the configuration class");
             throw new RuntimeException(e);
         }
 
+    }
+
+    public static String getProperty(String keyword) {
+        return properties.getProperty(keyword);
     }
 
 
