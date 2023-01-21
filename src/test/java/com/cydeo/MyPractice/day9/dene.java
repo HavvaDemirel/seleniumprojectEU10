@@ -1,4 +1,4 @@
-package com.cydeo.MyPractice;
+package com.cydeo.MyPractice.day9;
 
 import com.cydeo.tests.base.TestBase;
 import org.openqa.selenium.By;
@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import static com.cydeo.MyPractice.smartBearUtils.logInSmartBear;
+import static com.cydeo.MyPractice.day9.smartBearUtils.logInSmartBear;
 
 public class dene extends TestBase {
 
     @Test
     public void test(){
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
-    logInSmartBear(driver);
+        logInSmartBear(driver);
         WebElement familyAlbum = driver.findElement(By.xpath("//select[@name='ctl00$MainContent$fmwOrder$ddlProduct']"));
         Select select = new Select(familyAlbum);
         select.selectByVisibleText("FamilyAlbum");

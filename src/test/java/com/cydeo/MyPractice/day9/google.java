@@ -1,4 +1,4 @@
-package com.cydeo.MyPractice;
+package com.cydeo.MyPractice.day9;
 
 import com.cydeo.tests.base.TestBase;
 import org.openqa.selenium.By;

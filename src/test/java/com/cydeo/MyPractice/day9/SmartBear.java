@@ -1,4 +1,4 @@
-package com.cydeo.MyPractice;
+package com.cydeo.MyPractice.day9;
 
 import com.cydeo.Utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -23,6 +23,7 @@ public class SmartBear {
         //driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
+
     }
 
 
